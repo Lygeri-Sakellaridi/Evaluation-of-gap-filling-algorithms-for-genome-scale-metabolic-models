@@ -1,4 +1,6 @@
-Results from model consistency checks.
+Results from model consistency checks. 
+
+Each .mat file corresponds to one model, and contains the following variables:
 
 MetIncons: a list of metabolites that cause inconsistent model stoichiometry. If the model is consistent or unbound, MetIncons 
 is a self-describing string.
