@@ -1,0 +1,10 @@
+Results from model consistency checks.
+
+MetIncons: a list of metabolites that cause inconsistent model stoichiometry. If the model is consistent or unbound, MetIncons 
+is a self-describing string.
+
+model_issues: matlab struct that contains the results of various checks.
+
+valid_model: boolean. Indicates if the model is a valid cobratoolbox model. 1 -> yes, 0 -> no.
+
+stoich_consistent: string. States if the model is stoichiometrically consistent, and suggests steps to follow if it isn't.
