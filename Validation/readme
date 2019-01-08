@@ -1,1 +1,12 @@
 The scripts on this folder run various algorithms on test data to ensure they work as expected. They are mostly modified tutorials.
+
+Tesst Data:
+
+Escherichia coli core model: http://bigg.ucsd.edu/models/e_coli_core
+
+Scripts:
+
+reduce_and_gapfill: modified from fastgapfill tutorial, founh here: 
+https://opencobra.github.io/cobratoolbox/latest/tutorials/tutorialFastGapFill.html
+
+
