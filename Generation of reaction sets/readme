@@ -1,2 +1,6 @@
 Scripts for generating reaction sets that will be deleted from the model to create artificial gaps.
 
+single_deletion_analysis.py: Performs single reaction deletion analysis and writes the output to a csv file.
+The output is a dataframe that contains three columns: 1) the reaction identifier, 2) the model's growth rate 
+after the reaction's deletion, and 3) the solver's status. 
+
