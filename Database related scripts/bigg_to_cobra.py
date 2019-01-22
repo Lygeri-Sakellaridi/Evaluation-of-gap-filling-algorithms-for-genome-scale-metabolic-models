@@ -36,6 +36,7 @@ def parse_database(bigg_lines):
             print("You have duplicate keys. Check your input file: bigg_ids must be unique. Aborting process.")
             exit(0)
         else:
+            rxn_formula = rxn_formula.replace('-', '=') # default database arrows arrows look like this: <=> rather than this: <->
             bigg_dict[bigg_id] = rxn_formula
     return bigg_dict
         
