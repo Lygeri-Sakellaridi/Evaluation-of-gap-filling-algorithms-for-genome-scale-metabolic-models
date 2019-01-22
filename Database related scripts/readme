@@ -1,4 +1,0 @@
-Scripts for parsing, reformatting, or converting reference databases.
-
-bigg_to_cobra.py: creates a reference database of the format used by Cobratoolbox/FastGapFill. As input, it requires 
-bigg_reactions.txt file, found here: http://bigg.ucsd.edu/static/namespace/bigg_models_reactions.txt
