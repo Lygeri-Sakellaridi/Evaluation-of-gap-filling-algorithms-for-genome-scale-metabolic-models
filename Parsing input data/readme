@@ -1,1 +1,9 @@
 Scripts for parsing/reformatting input data.
+
+1) bigg_to_cobra.py: Converts the BiGG reaction database in a format compatible with CobraToolbox/FastGapFil.
+
+Input: the reactions' list from BiGG/Data Access. Can be found here: 
+http://bigg.ucsd.edu/static/namespace/bigg_models_reactions.txt
+
+2) make_model_fgf_dict: creates model-specific metabolite dictionary required for gap-filling. The dictionary needs to be
+curated for duplicate and missing values.
