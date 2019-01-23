@@ -1,0 +1,12 @@
+Results from FastGapFill experiments, before analysis.
+
+Each file contains the following results:
+
+1. The solution set of reactions predicted by the algorithm, in mixed namespace (KEGG and BiGG).
+2. The set of removed reactions, if applicable. 
+3. A table with statistics; among other things, it contains the original number of blocked reactions,
+and the fraction of those that have been successfully solved.
+4. The growth rate (as calculated by fba) before and after degradation, if applicable.
+
+The files whose names end with '_ori' result from gap-filling without any model degradation.
+Consequently, results 2 and 4 are not applicable to them.
