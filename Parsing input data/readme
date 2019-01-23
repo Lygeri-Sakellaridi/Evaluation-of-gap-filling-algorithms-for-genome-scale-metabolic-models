@@ -1,6 +1,6 @@
-Scripts for parsing/reformatting input data.
+Mischellaneous scripts for parsing/reformatting input data, for all tested algorithms.
 
-1) bigg_to_cobra.py: Converts the BiGG reaction database in a format compatible with CobraToolbox/FastGapFil.
+1) bigg_to_cobra.py: Converts the BiGG reaction database in a format compatible with CobraToolbox/FastGapFill.
 
 Input: the reactions' list from BiGG/Data Access. Can be found here: 
 http://bigg.ucsd.edu/static/namespace/bigg_models_reactions.txt
