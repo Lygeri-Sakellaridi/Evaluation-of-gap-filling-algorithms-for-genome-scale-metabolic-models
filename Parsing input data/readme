@@ -7,3 +7,9 @@ http://bigg.ucsd.edu/static/namespace/bigg_models_reactions.txt
 
 2) make_model_fgf_dict: creates model-specific metabolite dictionary required for gap-filling. The resulting dictionary needs to be
 curated for duplicate and missing values.
+
+3) make_b2k_met_dict: creates universal metabolite dictionary, mapping identifiers from bigg to kegg namespace. Makes use
+of BiKEGG toolbox: https://bikegg.github.io/ Mapping is not entirely one on one.
+
+4) make_k2b_rxn_dict: creates model-specific reaction dictionary, mapping identifiers from kegg to bigg namespace. Makes use
+of BiKEGG toolbox. Not all reactions are mapped.
